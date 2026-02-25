@@ -5,6 +5,8 @@ root.title("shopping cart")
 
 #displaying items in cart
 tk.Label(root, text="items in cart").grid(row=0, column=0)
+tk.Listbox(root).grid(row=1, column=0)
+tk.Button(root, text="sort items in cart").grid(row=2, column=0)
 
 # adding item to cart
 tk.Label(root, text="item to add to cart").grid(row=0, column=2)
